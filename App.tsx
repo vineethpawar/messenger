@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import {NativeBaseProvider, Box} from 'native-base';
 import {theme} from './theme';
