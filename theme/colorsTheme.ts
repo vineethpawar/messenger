@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 export const colorsTheme = {
   // Add new color
   primary: {

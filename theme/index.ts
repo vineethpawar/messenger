@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import {extendTheme} from 'native-base';
 import {configTheme} from './configTheme';
 import {colorsTheme} from './colorsTheme';
