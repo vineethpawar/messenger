@@ -1,0 +1,12 @@
+import {Box} from 'native-base';
+import React from 'react';
+
+const Settings = () => {
+  return (
+    <Box flex={1} bg={'lightBlue.600'}>
+      adwaw
+    </Box>
+  );
+};
+
+export default Settings;
