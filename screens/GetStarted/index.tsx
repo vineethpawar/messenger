@@ -7,10 +7,12 @@ const FirstRoute = () => <View style={{flex: 1, backgroundColor: '#ff4081'}} />;
 const SecondRoute = () => (
   <View style={{flex: 1, backgroundColor: '#673ab7'}} />
 );
+const ThirdRoute = () => <View style={{flex: 1, backgroundColor: 'green'}} />;
 
 const renderScene = SceneMap({
   first: FirstRoute,
   second: SecondRoute,
+  third: ThirdRoute,
 });
 
 export const GetStarted = () => {
@@ -20,6 +22,7 @@ export const GetStarted = () => {
   const [routes] = React.useState([
     {key: 'first', title: 'First'},
     {key: 'second', title: 'Second'},
+    {key: 'third', title: 'Third'},
   ]);
 
   return (
